@@ -1,0 +1,34 @@
+body.cuerpo {
+	background-color: #C0E2FF;
+}h3.titulos {
+	font: 150% Arial;
+	text-align: center;
+	font-weight: bold;
+}p.parrafos {
+	text-align: justify;
+	font-size: 18px;
+	width:1500px;
+	margin:auto;
+}nav.menu{
+	text-align:center;
+	float:none;
+    margin-top:;
+	font-family: Arial;
+	font-size:15px;
+	text-decoration: none;
+	padding: 15px;
+	padding-left:;
+	background-color: #2175bc;
+	color: #fff
+}a.links{
+	color:#FFFFFF;
+	text-decoration: none;
+}a:hover{
+	background-color: #2586d7;
+	margin-top:-2px;
+	padding-bottom:12px;	
+}pre.html{
+	font-size: 18px;
+	width:1500px;
+	margin:auto;
+}
