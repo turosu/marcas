@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <title>Etiquetas</title>
 <meta charset="utf-8">
@@ -10,13 +10,88 @@
 <nav class="menu">
 
 	<a class="links" href="index.html">INICIO</a>
-	<a class="links" href="herramientas.html">HERRAMIENTAS<a>
+	<a class="links" href="herramientas.html">HERRAMIENTAS</a>
 	<a class="links" href="etiquetas.html">ETIQUETAS</a>
 
 </nav>
 
-<h1></h1>
-<p></p>
+<h3 class="titulos">Etiquetas Html Basicas</h3>
+<pre class="html">
+
+<b>Los titulos se ponen con la etiqueta &lt;h*numero&gt; el numero puede variar desde el 1 al 6 siendo el 1 el mas grande y el 6 el mas pequeño Ejemplos:</b>
+
+&lt;h1&gt;Esto es un h1&lt;/h1&gt;
+&lt;h2&gt;Esto es un h2&lt;/h2&gt;
+&lt;h3&gt;Esto es un h3&lt;/h3&gt;
+
+<b>Si queremos poner el texto en negrita &lt;b&gt; o en cursiva &lt;i&gt; Ejemplo:</b>
+
+&lt;p&gt; Este texto normal pasa a &lt;b&gt; negrita y lo pongo en &lt;i&gt; cursiva pero antes de terminar 
+	quito la negrita &lt;/b&gt; y esta solo en cursiva &lt;/i&gt; pero termina normal. &lt;/p&gt;
+
+<b>Para escribir un parrafo utilizariamos la etiqueta &lt;p&gt; Ejemplo:</b>
+
+&lt;p&gt; Esto es un parrafo &lt;/p&gt;
+
+<b>Si quiesieramos escribir un parrafo, pero que nos cogiera todos los espacion y las tabulaciones usariamos un &lt;pre&gt; Ejemplo:</b>
+
+&lt;pre&gt; Esto 	es un parrafo 				con 	tabulaciones&lt;/pre&gt;
+
+<b>Si necesitamos que vincular una palabra o una frase a algun sitio web utilizariamos la etiqueta &lt;a&gt;Ejemplo:</b>
+
+&lt;a href="aqui_la_url.com"&gt; Y este hipervinculo nos llevaria al link que hemos puesto anteriormente &lt;/a&gt;
+
+<b>Si tuvieramos que poner una imagen usariamos la etiqueta &lt;img&gt; Ejemplo:</b>
+
+&lt;img src="donde_esta_la_iamgen.la_extension_que_tiene" alt="Aqui una breve descripcion de lo que muestra"&gt;
+
+<b>Si quisieramos dar tamaño a la imagen usuariamos los atributos width (anchura) y height (altura) Ejemplo: </b>
+
+&lt;img src="donde_esta_la_iamgen.la_extension_que_tiene" alt="Aqui una breve descripcion de lo que muestra" width="250px" height="250px"&gt;
+
+<b>Las etiquetas de HTML, todas se tienen que cerrar menos las que son unicas como por ejemplo el img Ejemplo:</b>
+
+Apertura de la etiqueta: &lt;p&gt; Esto es un parrafo &lt;/p&gt; Cierre de la etiqueta
+
+&lt;img src="donde_esta_la_iamgen.la_extension_que_tiene" alt="Aqui una breve descripcion de lo que muestra"&gt; Tiene apertura pero no cierre
+
+<b>Al abirir la etiqueta &lt;html&gt; nosotros en ella podemos declarar el idioma en el que se va a escribir el docuemnto Ejemplo: </b>
+
+&lt;html lang="en-US"&gt;
+
+<b>Si quisieramos hacer una lista de elementos, tenemos dos etiquetas una que nos la hace de forma ordenada &lt;ol&gt; y la desordenada &lt;ul&gt; </b>
+
+&lt;ol&gt;							&lt;ul&gt;
+	&lt;li&gt;Esto seria una lista ordenada&lt;/li&gt;			&lt;li&gt;Esto seria una lista desordenada&lt;/li&gt;
+	&lt;li&gt;Esto seria una lista ordenada&lt;/li&gt;			&lt;li&gt;Esto seria una lista desordenada&lt;/li&gt;
+	&lt;li&gt;Esto seria una lista ordenada&lt;/li&gt;			&lt;li&gt;Esto seria una lista desordenada&lt;/li&gt;
+&lt;/ol&gt;							&lt;/ul&gt;
+
+<b>Si quisieramos hacer una lista descriptiva usariamos la etiqueta &lt;dl&gt; Ejemplo:</b>
+
+&lt;dl&gt;
+	&lt;dt&gt; Cafe &lt;/dt&gt;
+		&lt;dd&gt; Bebida negra caliente &lt;/dd&gt;
+	&lt;dt&gt; Leche &lt;/dt&gt;
+		&lt;dd&gt; Bebida blanca fria &lt;/dd&gt;
+&lt;/dl&gt;
+
+<b>Si necesitaramos crear una tabla usariamos la etiqueta &lt;table&gt; Ejemplo:</b>
+
+&lt;table&gt;
+	&lt;tr&gt; (Columnas)
+		&lt;th&gt;Fila&lt;/th&gt; (Filas)
+	&lt;/tr&gt; 
+&lt;/table&gt;
+
+<b>Si quieramos hacer un mapa de imagenes usariamos la etiqueta &lt;map&gt; Ejemplo:</b>
+
+&lt;img src="circulos.gif" alt="Circulos" usemap="#circulos"&gt; (Primero introduciriamos la imagen que deseamos)
+	&lt;map name="circulos"&gt; (abririamos la etiqueta map)
+		&lt;area shape="rect" coords="0,0,91,70" href="no.html" alt="amigos"&gt; (Aqui escojeriamos el tamaño de la zona donde cliquemos)
+		&lt;area shape="rect" coords="113,6,177,70" href="http://www.google.com" alt="google"&gt;
+	&lt;/map&gt;
+</pre>
 
 </body>
 </html>

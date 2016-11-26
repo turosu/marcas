@@ -31,4 +31,7 @@ body.cuerpo {
 	font-size: 18px;
 	width:1500px;
 	margin:auto;
+}div.herramientas{
+	text-align:center;
+	display: block;
 }
